@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
+body {
+  background-color: #ecfcff;
+}
+
+.display-4 span {
+  color: #3e64ff;
+}
+
+.drum-pads {
+  margin: 0 0;
+}
+
+.drum-pads .drum-pad {
+  margin: 0.75rem;
+  background-color: #5edfff;
+  border-radius: 2%;
+  border: 3px solid #b2fcff;
+  height: 8rem;
+  width: 10rem;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #ecfcff;
+}
+
+.drum-pads .drum-pad span {
+  padding: 2.3rem 4rem;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.drum-pads :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#display {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

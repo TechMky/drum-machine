@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <title>DrumMachine</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center display-4">Drum<span>Machine</span></h1>
+        <div id="display" class="text-center lead">Click or Press a key..</div>
+        <div class="row">
+            <div class="col">
+                <div id="drum-machine">
+                    <div class="drum-pads d-flex justify-content-center">
+                        <div class="drum-pad d-flex" id="Q-pad" data-name="String-n-Heater">
+                            <span class="mx-auto">Q</span>
+                            <audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="W-pad" data-name="Heat-n-Clap">
+                            <span class="mx-auto">W</span>
+                            <audio class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="E-pad" data-name="Heater">
+                            <span class="mx-auto">E</span>
+                            <audio class="clip" id="E" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
+
+                        </div>
+                    </div>
+                    <div class="drum-pads d-flex justify-content-center">
+                        <div class="drum-pad d-flex" id="A-pad" data-name="String">
+                            <span class="mx-auto">A</span>
+                            <audio class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="S-pad" data-name="Clap">
+                            <span class="mx-auto">S</span>
+                            <audio class="clip" id="S" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="D-pad" data-name="Crash">
+                            <span class="mx-auto">D</span>
+                            <audio class="clip" id="D" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>
+
+                        </div>
+                    </div>
+                    <div class="drum-pads d-flex justify-content-center">
+                        <div class="drum-pad d-flex" id="Z-pad" data-name="Kick-n-Hat">
+                            <span class="mx-auto">Z</span>
+                            <audio class="clip" id="Z" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="X-pad" data-name="Kick">
+                            <span class="mx-auto">X</span>
+                            <audio class="clip" id="X" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>
+
+                        </div>
+                        <div class="drum-pad d-flex" id="C-pad" data-name="Cev H2">
+                            <span class="mx-auto">C</span>
+                            <audio class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center text-secondary mt-2">Made with ❤ by </h3>
+        <h5 class="text-center text-secondary mt-2"><a href="https://github.com/TechMky">@TechMky</a></h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
